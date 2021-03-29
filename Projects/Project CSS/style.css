@@ -103,6 +103,7 @@ body{
     height: auto;
     padding: 25px;
     background-color: whitesmoke;
+    float: left;
 }
 
 .Content h1 {
@@ -113,4 +114,30 @@ body{
 .Content p {
     font-size: small;
     font-family: sans-serif;
+}
+
+.SideBar {
+    float: left;
+    padding: 25px;
+}
+
+.SideBar h3 {
+    font-family: sans-serif;
+    color: black;
+}
+
+.SideBar ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+.SideBar ul > li > a{
+    display: block;
+    margin-bottom: 5px;
+    color: black;
+    font-family: sans-serif;
+    font-style: italic;
+    text-decoration: none;
+    font-size: small;
 }
