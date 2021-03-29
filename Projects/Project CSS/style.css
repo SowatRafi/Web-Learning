@@ -23,3 +23,29 @@ body{
 .clearfix{
     clear: both;
 }
+
+.Main-Menu {
+    background-color: silver;
+}
+
+.Main-Menu > ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+.Main-Menu > ul > li {
+    display: inline-block;
+}
+
+.Main-Menu > ul > li > a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Main-Menu > ul > li > a:hover {
+    background-color: orange;
+}
