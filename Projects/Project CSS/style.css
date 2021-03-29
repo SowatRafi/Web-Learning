@@ -114,6 +114,7 @@ body{
 .Content p {
     font-size: small;
     font-family: sans-serif;
+    color: black;
 }
 
 .SideBar {
