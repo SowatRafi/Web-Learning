@@ -233,3 +233,9 @@ body{
     font-size: small;
     font-family: cursive;
 }
+
+/*Contact page*/
+.banner-iframe {
+    width: 983px;
+    height: 772px;
+}
