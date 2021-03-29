@@ -58,6 +58,7 @@ body{
     list-style: none;
     position: absolute;
     display: none;
+    z-index: 999;
 }
 
 .drop > li > a {
@@ -76,4 +77,18 @@ body{
 
 .Main-Menu > ul > li:hover .drop {
     display: block;
+}
+
+/* Banner */
+.Banner {
+    width: 1000px;
+    height: 772.412px;
+    float: auto;
+    padding: 15px;
+    /*overflow: hidden;*/
+}
+
+.Banner > img {
+    width: 50%;
+    height: auto;
 }
