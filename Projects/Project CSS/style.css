@@ -44,8 +44,36 @@ body{
     display: block;
     padding: 15px;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
 }
 
 .Main-Menu > ul > li > a:hover {
     background-color: orange;
+}
+
+/* Drop Down Menu */
+.drop {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    position: absolute;
+    display: none;
+}
+
+.drop > li > a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    background-color: whitesmoke;
+}
+
+.drop > li > a:hover {
+    background-color: orange;
+}
+
+.Main-Menu > ul > li:hover .drop {
+    display: block;
 }
