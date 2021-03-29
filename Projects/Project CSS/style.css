@@ -141,3 +141,59 @@ body{
     text-decoration: none;
     font-size: small;
 }
+
+.Main-Footer {
+    background-color: black;
+    color: chartreuse;
+    width: 950px;
+    padding: 25px;
+}
+
+.Footer-Box {
+    width: 237.5 px;
+    height: auto;
+    float: left;
+    font-size: small;
+    font-family: sans-serif;
+    margin: 5px;
+    padding: 15px;
+}
+
+.Footer-Box > ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.Footer-Box > ul > li > a{
+    display: block;
+    font-size: small;
+    margin-bottom: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+.Footer-Box h3, p {
+    color: whitesmoke;
+}
+
+.Footer-Box p {
+    font-size: small;
+}
+.Footer-Box address p > a {
+    color: whitesmoke;
+    font-size: small;
+}
+
+.CopyRight {
+    text-align: center;
+    padding: 25px;
+    font-family: sans-serif;
+    font-style: italic;
+    background-color: black;
+}
+
+.CopyRight p {
+    margin: 0px;
+    color: lightgreen;
+}
