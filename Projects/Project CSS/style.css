@@ -66,7 +66,7 @@ body{
     text-decoration: none;
     display: block;
     padding: 15px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: sans-serif;
     font-size: small;
     background-color: whitesmoke;
 }
@@ -91,4 +91,26 @@ body{
 .Banner > img {
     width: 50%;
     height: auto;
+}
+
+/* Content Holder */
+.Content-Holder {
+    background-color: orange;
+}
+
+.Content {
+    width: 700px;
+    height: auto;
+    padding: 25px;
+    background-color: whitesmoke;
+}
+
+.Content h1 {
+    font-size: 1.5em;
+    font-family: sans-serif;
+}
+
+.Content p {
+    font-size: small;
+    font-family: sans-serif;
 }
