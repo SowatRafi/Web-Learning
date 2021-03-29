@@ -9,3 +9,17 @@ body{
     background-color: white;
     margin: auto;
 }
+
+.Logo {
+    float: left;
+    padding: 15px;
+}
+
+.Search {
+    float: right;
+    padding: 15px;
+}
+
+.clearfix{
+    clear: both;
+}
