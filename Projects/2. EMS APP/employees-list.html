@@ -68,8 +68,8 @@
                         <th>sowat.hossain.rafi@g.bracu.ac.bd</th>
                         <div class="d-grid gap-2">
                             <th><a href="#" class="btn btn-info btn-sm" data-bs-toggle="modal" data-bs-target="#employee_Details1">Details</a></th>
-                        <th><a href="#" class="btn  btn-warning btn-sm">Edit</a></th>
-                        <th><a href="#" class="btn btn-danger btn-sm">Delete</a></th>
+                        <th><a href="#" class="btn  btn-warning btn-sm" data-bs-toggle="modal" data-bs-target="#employee_edit_Details1">Edit</a></th>
+                        <th><a href="#" class="btn btn-danger btn-sm" onclick="confirm('Are you sure to delete? \'Sowat Hossain Rafi\'?');">Delete</a></th>
                         </div>
                     </tr>
                     <tr>
@@ -130,6 +130,41 @@
         </table>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Edit Employee Model -->
+  <div class="modal fade" id="employee_edit_Details1" tabindex="-1" aria-labelledby="employee_edit_Details1" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="editing_employee">Add Employee details</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="mb-3">
+                <input type="text" name="form-control form-control-sm" required value="12-08-21">
+            </div>
+              <div class="mb-3">
+                  <input type="text" name="form-control form-control-sm" required value="Sowat Hossain Rafi">
+              </div>
+              <div class="mb-3">
+                  <input type="email" name="form-control form-control-sm" required value="sowat.hossain.rafi@g.bracu.ac.bd">
+              </div>
+              <div class="mb-3">
+                  <input type="tel" name="form-control form-control-sm" required value="+8801835973611">
+              </div>
+              <div class="mb-3">
+                  <input type="text" name="jobs" value="Graphics Designer">
+              </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-success">Edit</button>
         </div>
       </div>
     </div>
