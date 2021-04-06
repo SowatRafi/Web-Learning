@@ -48,7 +48,7 @@
             <div class="col-lg-3 col-md-3">
                 <div class="list-group small">
                     <div class="list-group-item active">Jobs Data</div>
-                    <a href="#" class="list-group-item" data-bs-toggle="modal" data-bs-target="#add_employee">Add New Job</a>
+                    <a href="#" class="list-group-item" data-bs-toggle="modal" data-bs-target="#add_job">Add New Job</a>
                     <a href="jobs.html" class="list-group-item">View all Jobs</a>
                 </div>
             </div>
@@ -65,9 +65,9 @@
                         <th>01</th>
                         <th>Graphics Designer</th>
                         <div class="d-grid gap-2">
-                            <th><a href="#" class="btn btn-info btn-sm" data-bs-toggle="modal" data-bs-target="#employee_Details1">Details</a></th>
-                        <th><a href="#" class="btn  btn-warning btn-sm" data-bs-toggle="modal" data-bs-target="#employee_edit_Details1">Edit</a></th>
-                        <th><a href="#" class="btn btn-danger btn-sm" onclick="confirm('Are you sure to delete? \'Sowat Hossain Rafi\'?');">Delete</a></th>
+                            <th><a href="#" class="btn btn-info btn-sm" data-bs-toggle="modal" data-bs-target="#job_Details1">Details</a></th>
+                        <th><a href="#" class="btn  btn-warning btn-sm" data-bs-toggle="modal" data-bs-target="#job_edit_Details1">Edit</a></th>
+                        <th><a href="#" class="btn btn-danger btn-sm" onclick="confirm('Are you sure to delete? \'Graphics Designer\'?');">Delete</a></th>
                         </div>
                     </tr>
                     <tr>
@@ -104,8 +104,8 @@
     </div>
     <!--Dash board contents-->
   
-  <!-- Details Modal -->
-  <div class="modal fade" id="employee_Details1" tabindex="-1" aria-labelledby="employee_Details1" aria-hidden="true">
+  <!-- Job Details Modal -->
+  <div class="modal fade" id="job_Details1" tabindex="-1" aria-labelledby="job_Details1" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
@@ -114,27 +114,15 @@
         </div>
         <table class="table table-bordered table-hover">
             <tr>
-                <th>Joining Date</th>
-                <td>16th March, 2020</td>
-            </tr>
-            <tr>
                 <th>ID</th>
                 <td>1</td>
             </tr>
             <tr>
+                <th>Job added Date</th>
+                <td>16th March, 2020</td>
+            </tr>
+            <tr>
                 <th>Name</th>
-                <td>Sowat Hossain Rafi</td>
-            </tr>
-            <tr>
-                <th>E-mail</th>
-                <td>sowat.hossain.rafi@g.bracu.ac.bd</td>
-            </tr>
-            <tr>
-                <th>Phone Number</th>
-                <td>+8801835973611</td>
-            </tr>
-            <tr>
-                <th>Job</th>
                 <td>Graphics Designer</td>
             </tr>
         </table>
@@ -145,8 +133,8 @@
     </div>
   </div>
 
-  <!-- Edit Employee Model -->
-  <div class="modal fade" id="employee_edit_Details1" tabindex="-1" aria-labelledby="employee_edit_Details1" aria-hidden="true">
+  <!-- Edit Job Details -->
+  <div class="modal fade" id="job_edit_Details1" tabindex="-1" aria-labelledby="job_edit_Details1" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
@@ -156,36 +144,27 @@
         <div class="modal-body">
           <form>
             <div class="mb-3">
-                <input type="text" name="form-control form-control-sm" required value="12-08-21">
+                <input type="text" class="form-control form-control-sm" required value="12-08-21">
             </div>
-              <div class="mb-3">
-                  <input type="text" name="form-control form-control-sm" required value="Sowat Hossain Rafi">
-              </div>
-              <div class="mb-3">
-                  <input type="email" name="form-control form-control-sm" required value="sowat.hossain.rafi@g.bracu.ac.bd">
-              </div>
-              <div class="mb-3">
-                  <input type="tel" name="form-control form-control-sm" required value="+8801835973611">
-              </div>
-              <div class="mb-3">
-                  <input type="text" name="jobs" value="Graphics Designer">
-              </div>
+            <div class="mb-3">
+                <input type="text" class="form-control form-control-sm" value="Graphics Designer" required>
+            </div>
           </form>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-success">Edit</button>
+          <button type="button" class="btn btn-success">Update Job</button>
         </div>
       </div>
     </div>
   </div>
 
-  <!--Add Employee Modal -->
-  <div class="modal fade" id="add_employee" tabindex="-1" aria-labelledby="add_employee" aria-hidden="true">
+  <!--Add Job Modal -->
+  <div class="modal fade" id="add_job" tabindex="-1" aria-labelledby="add_job" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="adding_employee">Add Employee details</h5>
+          <h5 class="modal-title" id="adding_employee">Add Job details</h5>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
@@ -194,28 +173,12 @@
                 <input type="date" name="form-control form-control-sm" required id="">
             </div>
               <div class="mb-3">
-                  <input type="text" name="form-control form-control-sm" placeholder="Employee Name" required id="">
+                  <input type="text" name="form-control form-control-sm" placeholder="Job Name" required id="">
               </div>
-              <div class="mb-3">
-                  <input type="email" name="form-control form-control-sm" placeholder="E-mail" required id="">
-              </div>
-              <div class="mb-3">
-                  <input type="tel" name="form-control form-control-sm" placeholder="Phone Number" required id="">
-              </div>
-              <div class="mb-3">
-                  <select name="jobs" class="form-control form-control-sm">
-                      <option value="Graphic Designer">Graphic Designer</option>
-                      <option value="Software Engineering">Software Engineering</option>
-                      <option value="Full Stack Web Developer">Full Stack Web Developer</option>
-                      <option value="Business Analytics">Business Analytics</option>
-                      <option value="Cyber Security Officer">Cyber Security Officer</option>
-                  </select>
-              </div>
-          </form>
-        </div>
+              
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-success">Add new Employee</button>
+          <button type="button" class="btn btn-success">Add new Job</button>
         </div>
       </div>
     </div>
