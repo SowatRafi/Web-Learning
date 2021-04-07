@@ -30,8 +30,9 @@
     font-size: 1.5em;
 }
 
-.default-body-content .list-group {
+.default-body-content .list-group a{
     color: black;
+    padding-top: 20px;
 }
 
 .home-body-conten .my_card {
