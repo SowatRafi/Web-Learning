@@ -1,61 +1,58 @@
-.my_nav {
-    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.3);
+.my_nav{
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.3);
     background-color: rgb(255 255 255 / 87%) !important;
-    backdrop-filter: blur(1000px);
+    backdrop-filter: blur(10px);
 }
-
-.main-header, .default-header {
-    background-image: url(https://fsa.zobj.net/crop.php?r=u57QZwRHGjJ1UN60UXFhDTdhZhUcS-gj2aeJR9mXrL3eH--PN5CnTyMiGP6G0QKoCicMCysTgW1pprvpMYr3Tk7uhcxzehGRxQR3Eor62L9T8KfEjI4S6_HHHJTToSVjdmj2onkIWsardxMk);
+.main-header{
+    background-image: url(../Images/Banner.jpg);
     background-size: cover;
-    padding-top: 100px;
+    padding-top: 150px;
     padding-bottom: 100px;
 }
-
-.header-text-holder, .subsribe-holder {
+.default-header{
+    background-image: url(../Images/Banner.jpg);
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.header-text-holder, .subscribe-holder{
     text-align: center;
-    color: ghostwhite;
+    color: white;
 }
-
-.default-header-text-holder h1 {
-    color: whitesmoke;
-    font-size: 1.89rem;
+.default-header-text-holder{
+    color: white;
 }
-
-.home-body-content, .default-body-content {
+.default-header-text-holder h1{
+    font-size: 2em;
+}
+.home-body-content, .default-body-content{
     padding-top: 50px;
     padding-bottom: 50px;
 }
-
-.default-body-content .list-group .list-item h3 {
-    font-size: 1.5em;
+.default-body-content .list-group .list-group-item h3{
+    font-size: 1.3em;
 }
-
 .default-body-content .list-group a{
     color: black;
     padding-top: 20px;
 }
-
-.home-body-conten .my_card {
+.home-body-content .my_card{
     margin-bottom: 25px;
     transition-duration: 0.4s;
 }
-
-.my_card:hover {
-    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3);
+.my_card:hover{
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.3);
     transition-duration: 0.4s;
 }
-
-.my_card h3 {
-    font-size: 1.5em;
+.my_card h3{
+    font-size: 1.2em;
 }
-
-.main-footer {
+footer.main-footer {
     padding-top: 25px;
     padding-bottom: 25px;
-    color: whitesmoke;
+    color: white;
     background-color: black;
 }
-
-.main-footer p {
+footer.main-footer p{
     margin: 0px;
 }
