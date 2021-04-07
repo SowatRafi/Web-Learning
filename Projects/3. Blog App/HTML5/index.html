@@ -19,7 +19,7 @@
   <body>
 
     <!-- NAV -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light my_nav">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light my_nav fixed-top">
         <div class="container">
             <a class="navbar-brand" href="#">My Blog</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -58,6 +58,48 @@
         </div>
     </nav>
     <!-- NAV -->
+
+    <!-- Banner -->
+
+    <header class="main-header">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 col-md-8">
+                    <div class="header-text-holder">
+                        <h1>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h1>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore doloremque minima modi. Magnam eaque consectetur harum deleniti, recusandae illo! Voluptates a quis eum, labore et amet quasi dolores cupiditate illo?</p>
+                    </div>
+                    <div data-bs-toggle="modal" data-bs-target="#subscribe_modal" class="subsribe-holder">
+                        <a href="#" class="btn btn-info">Subscribe for latest updates</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Banner -->
+
+    <!-- Subscribe Modal -->
+    <div class="modal fade" id="subscribe_modal" tabindex="-1" aria-labelledby="subscribe_modal" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Subscribe for newsletters</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+            <form>
+                <div class="mb-3 d-grid gap-2">
+                    <input type="text" name="form-control form-control-sm" placeholder="Your E-mail ID: ">
+                </div>
+                <div class="mb-3 d-grid gap-2">
+                    <input type="submit" class="btn btn-success btn-sm" value="Subscribe Now!">
+                </div>
+            </form>
+            </div>
+        </div>
+        </div>
+    </div>
 
     <!-- Optional JavaScript; choose one of the two! -->
 

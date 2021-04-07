@@ -1,3 +1,17 @@
 .my_nav {
     box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.3);
+    background-color: rgb(255 255 255 / 87%) !important;
+    backdrop-filter: blur(10px);
+}
+
+.main-header {
+    background-image: url(https://fsa.zobj.net/crop.php?r=u57QZwRHGjJ1UN60UXFhDTdhZhUcS-gj2aeJR9mXrL3eH--PN5CnTyMiGP6G0QKoCicMCysTgW1pprvpMYr3Tk7uhcxzehGRxQR3Eor62L9T8KfEjI4S6_HHHJTToSVjdmj2onkIWsardxMk);
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.header-text-holder, .subsribe-holder {
+    text-align: center;
+    color: ghostwhite;
 }
