@@ -4,7 +4,7 @@
     backdrop-filter: blur(1000px);
 }
 
-.main-header {
+.main-header, .default-header {
     background-image: url(https://fsa.zobj.net/crop.php?r=u57QZwRHGjJ1UN60UXFhDTdhZhUcS-gj2aeJR9mXrL3eH--PN5CnTyMiGP6G0QKoCicMCysTgW1pprvpMYr3Tk7uhcxzehGRxQR3Eor62L9T8KfEjI4S6_HHHJTToSVjdmj2onkIWsardxMk);
     background-size: cover;
     padding-top: 100px;
@@ -16,9 +16,22 @@
     color: ghostwhite;
 }
 
-.home-body-content {
+.default-header-text-holder h1 {
+    color: whitesmoke;
+    font-size: 1.89rem;
+}
+
+.home-body-content, .default-body-content {
     padding-top: 50px;
     padding-bottom: 50px;
+}
+
+.default-body-content .list-group .list-item h3 {
+    font-size: 1.5em;
+}
+
+.default-body-content .list-group {
+    color: black;
 }
 
 .home-body-conten .my_card {
