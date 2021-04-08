@@ -21,3 +21,22 @@
     background-size: cover;
     color: white;
 }
+
+.features-holder {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+section.features {
+    padding-top: 35px;
+    padding-bottom: 25px;
+    background-color: whitesmoke;
+}
+
+.features-holder h3 {
+    font-size: 2em;
+}
+
+.features-holder p {
+    font-size: 1em;
+}
