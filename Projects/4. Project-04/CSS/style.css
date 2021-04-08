@@ -2,3 +2,14 @@
     font-size: small;
     box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.3);
 }
+
+.custom-nav ul.dropdown-menu {
+    font-size: small;
+}
+
+/* https://cssgradient.io/ */
+.custom-divider {
+    height: 5px;
+    background: rgb(161,159,189);
+    background: linear-gradient(90deg, rgba(161,159,189,1) 0%, rgba(9,9,121,1) 8%, rgba(15,228,35,1) 22%, rgba(7,62,156,1) 32%, rgba(32,96,89,1) 39%, rgba(5,95,178,1) 47%, rgba(193,183,4,1) 57%, rgba(3,137,206,1) 66%, rgba(2,155,218,1) 74%, rgba(225,2,90,0.962962962962963) 79%, rgba(1,179,234,1) 85%, rgba(22,244,1,1) 92%, rgba(0,212,255,1) 100%);
+}
