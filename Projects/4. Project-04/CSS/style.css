@@ -41,24 +41,28 @@ section.features {
     font-size: 1em;
 }
 
-section.online-courses {
+section.online-courses, .classroom-training {
     padding-top: 35px;
     padding-bottom: 35px;
 }
 
-.online-courses-text-widget {
+.online-courses-text-widget, .classroom-courses-text-widget {
     text-align: center;
 }
 
-.online-courses-text-widget, .card-title h2 {
+.online-courses-text-widget, .card-title h2, .classroom-courses-text-widget h2{
     font-size: 1.3em;
 }
 
-.online-courses-text-widget h2, p, .card-title, .btn-text {
+.online-courses-text-widget h2, p, .card-title, .btn-text, .classroom-courses-text-widget h2 {
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
 
 .card {
     margin-bottom: 25px;
     box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.3);
+}
+
+.classroom-training {
+    background-color: whitesmoke;
 }
