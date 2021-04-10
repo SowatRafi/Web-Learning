@@ -58,11 +58,40 @@ section.online-courses, .classroom-training {
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
 
-.card {
+.card:hover {
     margin-bottom: 25px;
     box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.3);
+    transition-duration: 0.4s;
 }
 
 .classroom-training {
     background-color: whitesmoke;
+}
+
+.sign-up-form-sliderbar .card-title{
+    font-size: 1.2em;
+}
+
+.sign-up-form-sliderbar .card-text {
+    font-size: 14px;
+}
+
+.course-list-item {
+    color: black;
+    font-size: small;
+    padding-top: 15px;
+}
+
+.card-body:hover{
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.3);
+    transition-duration: 0.4s;
+}
+
+.course-list-item:hover h5 {
+    margin-left: 10px;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.3);
+    transition-duration: 0.4s;
+    background-color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: whitesmoke;
 }
