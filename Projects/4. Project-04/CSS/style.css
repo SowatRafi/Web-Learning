@@ -124,3 +124,72 @@ section.online-courses, .classroom-training, .reviews-slider {
     color: orange;
     font-size: 15px;
 }
+
+footer.main-footer {
+    background-color: rgb(46, 44, 44);
+    color: ghostwhite;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+footer.main-footer:hover {
+    margin-left: 10px;
+    margin-right: 10px;
+    box-shadow: 2px 2px 12px rgba(252, 249, 249, 0.3);
+    transition-duration: 0.4s;
+    background-color: black;
+    font-family: serif;
+    color: whitesmoke;
+}
+
+aside.footer-widget {
+    margin-bottom: 25px;
+}
+
+aside.footer-widget h1 {
+    font-size: 16px;
+}
+
+aside.footer-widget ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+aside.footer-widget ul li a {
+    text-decoration: none;
+    font-size: 14px;
+    color: whitesmoke;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+address h2 {
+    font-size: 20px;
+}
+
+address p {
+    font-size: 14px;
+}
+
+#footer-e-mail:hover, #footer-phone:hover{
+    margin-left: 5px;
+    transition-duration: 0.4s;
+    font-family: serif;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+section.copy {
+    padding-top: 10px;
+    padding-bottom: 5px;
+    background-color: black;
+    font-size: 14px;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: grey;
+}
+
+section.copy p{
+    margin: 0px;
+}
